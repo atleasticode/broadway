@@ -4,6 +4,69 @@ body {
 }
 
 .background {
-  background-image: url(././img/flatiron.jpg);
+  background-image: url(../img/flatiron.jpg);
   background-size: cover;
+  background-position: top right;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+}
+
+ul {
+  display: inline;
+  font-size: 18px;
+}
+
+ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+ul a {
+  font-weight: bold;
+  color: white;
+}
+
+.white {
+  width: 100%;
+  background-color: white;
+  padding: 10px 0;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+h4 {
+  font-size: 23px;
+  color: white;
+}
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
+}
+
+.footer p {
+  font-size: 11px;
+  color: white;
+  display: inline;
+}
+
+.footer ul li {
+  display: inline;
 }
